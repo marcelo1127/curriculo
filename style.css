@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}body {
+    height: 100vh; 
+    background-color: black; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3) 25%, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.3) 75%);
+    background-size: 200% 200%;
+    animation: waveEffect 10s infinite alternate; 
+}
+
+@keyframes waveEffect {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+    position: relative;
+    border-radius: 20px;
+    padding: 5px 2%;
+}
+button:hover{
+    
+    color: #87CEEB;
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+   
+}
+
+header h1 {
+    font-family: 'Lavishly Yours' , cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-family: 'Lavishly Yours' , cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.bo{
+    font-family: 'Lavishly Yours' , cursive;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bto-contato {
+  
+    width: 20vh;
+    text-decoration: none;
+    padding: 10px 3%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position:relative; 
+}
+
+.bto-contato:hover {
+    background-color: #87CEEB;
+    color: black;
+    box-shadow: 5px 7px 12px aliceblue;
+}
+main {
+    font-family: 'Lavishly Yours' , cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.sobre{
+    
+    font-size: 4vh;
+    padding: 10vh;
+
+}
+.h1_1{
+    margin-bottom: 2vh;
+    font-size: 7vh;
+    display: flex;
+    justify-content: center;
+    color: #87CEEB;
+}
+.description{
+    font-size: 4vh;
+    padding: 10vh;
+}
+.description-1{
+    margin-bottom: 2vh;
+    font-size: 7vh;
+    display: flex;
+    justify-content: center;
+    color: #87CEEB;
+}
+.description-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.objetivo{
+   
+    font-size: 4vh;
+    padding: 10vh;
+}
+.objetivo-2{
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    color: #87CEEB;
+}
+.university{
+    font-size: 4vh;
+    padding: 10vh;
+}
+.university-1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    color: #87CEEB;
+}
+.university-2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.know{
+    font-size: 4vh;
+    padding: 10vh;
+}
+.know-1{
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    color: #87CEEB;
+}
+.know-2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.know-3{
+    position: relative;
+}
+.xp-bar {
+    
+    width: 700px;
+    height: 10px;
+    background-color: #444;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(226, 19, 241);
+    position: relative;
+    
+  }
+  .xp-progress {
+    height: 100%;
+    background: linear-gradient(135deg, 
+      rgba(255, 105, 180, 1) 0%, 
+      rgba(138, 43, 226, 1) 25%, 
+      rgba(0, 255, 255, 1) 50%, 
+      rgba(135, 206, 235, 1) 75%, 
+      rgba(255, 105, 180, 0.7) 100% 
+    );
+    background-size: 400% 400%; 
+    border-radius: 5px;
+    animation: liquidSwing 7s infinite alternate ease-in-out,colorShift 7s infinite alternate;
+  }
+  
+  @keyframes liquidSwing {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 25%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 75%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+  .word_of_God{
+    font-size: 7vh;
+    padding: 10vh;
+  }
+  .word_of_God-1{
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    color: #87CEEB;
+}
+.word_of_God-2{
+    font-size: 3vh;
+}
+@keyframes colorchange{
+    0%{
+        color: #87CEEB;
+    }
+    7%{
+        color: #E0FFFF;
+    }
+    14%{
+        color: #87CEEB;
+    }
+    21%{
+        color: #E0FFFF;
+    }
+    28%{
+        color: #87CEEB;
+    }
+    35%{
+        color: #E0FFFF;
+    }
+    42%{
+        color: #87CEEB;
+    }
+    49%{
+        color: #E0FFFF;
+    }
+    56%{
+        color: #87CEEB;
+    }
+    63%{
+        color: #E0FFFF;
+    }
+    70%{
+        color: #87CEEB;
+    }
+    77%{
+        color: #E0FFFF;
+    }
+    84%{
+        color: #87CEEB;
+    }
+    91%{
+        color: #E0FFFF;
+    }
+    100%{
+        color: #87CEEB;
+    }
+}
+.word_of_God-1,.word_of_God-2{
+    animation: colorchange 77s infinite alternate;
+}
+.project{
+    font-size: 5vh;
+    padding: 10vh;
+}
+.project-1{
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    color: #87CEEB;
+}
+.project-2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a{
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+}
+.a:hover{
+    color: aqua;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map{
+    position: relative;
+}
+footer{
+    gap: 50px;
+}
+footer h2{
+    font-size: 6vh;
+    color: aliceblue;
+}
+.contato{
+    display: flex;
+    gap: 5vh;
+}
+.contato-1{
+    color: #87CEEB;
+}
+.c{
+    position: relative;
+}
+.map{
+    width: 100%;
+}
+
+/* Para telas muito pequenas, como celulares pequenos (max-width: 320px) */
+@media (max-width: 350px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+    header p {
+        font-size: 0.8rem;
+    }
+    .bto-contato {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .sobre, .description, .objetivo, .university,  .project {
+        font-size: 2.5vh;
+        padding: 3vh;
+    }
+    .xp-bar{
+        width: 1%;
+    }
+    .map{
+        width: 100%;
+    }
+      
+}
+
+/* Para telas pequenas, como celulares (max-width: 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .bo{
+        flex-direction: column;
+    }
+    .bto-contato {
+        width: 50vh;
+        font-size: 1rem;
+    }
+    .sobre, .description, .objetivo, .university, .project {
+        font-size: 2.5vh;
+        padding: 4vh;
+    }
+    .know-1{
+        font-size: 6.3vh;
+    }
+  .xp-bar{
+    width: 38vh; 
+  }
+    
+    .map{
+        width: 100%;
+    }
+    footer h2{
+        margin-left: 25%;
+    }
+    .contato{
+        margin-right: 10px;
+    }
+}
+
+/* Para telas médias, como tablets em modo retrato (max-width: 768px) */
+@media (min-width: 490px) and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    .bo{
+        flex-direction: column;
+    }
+    .bto-contato {
+        width: 50vh;
+        font-size: 1.2rem;
+    }
+    .sobre, .description, .objetivo, .university, .project {
+        font-size: 3vh;
+        padding: 5vh;
+    }
+    .xp-bar{
+        width: 53vh;
+    }
+    
+}
+
+/* Para telas grandes, como tablets em modo paisagem (max-width: 1024px) */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    header p {
+        font-size: 1.4rem;
+    }
+    .info{
+        text-align: center;
+    }
+    .bo{
+        flex-direction: column;
+    }
+    .bto-contato {
+        width: 40vh;
+        font-size: 1.3rem;
+    }
+    .sobre, .description, .objetivo, .university,  .project {
+        font-size: 3.5vh;
+        padding: 6vh;
+    }
+   
+    
+    
+}
+@media (min-width: 1025px) and (max-width: 1400px){
+    
+}
+
+/* Para telas grandes de desktop (max-width: 1440px) */
+@media (max-width: 1440px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.5rem;
+    }
+    .bto-contato {
+        width: 35vh;
+        font-size: 1.5rem;
+    }
+    .sobre, .description, .objetivo, .university,  .project {
+        font-size: 4vh;
+        padding: 8vh;
+    }
+    
+   
+}
+
+/* Para telas muito grandes de desktop (acima de 1440px) */
+@media (min-width: 1441px) {
+    header h1 {
+        font-size: 3rem;
+    }
+    header p {
+        font-size: 1.8rem;
+    }
+    .bo{
+        flex-direction: column;
+    }
+    .bto-contato {
+
+        width: 30vh;
+        font-size: 1.7rem;
+    }
+    .sobre, .description, .objetivo, .university,  .project {
+        font-size: 5vh;
+        padding: 10vh;
+    }
+    
+   
+}
+@media(min-width : 2000px) and (max-width: 2600px) {
+    header h1{
+        font-size: 7vh;
+    }
+    header p{
+        font-size: 6vh;
+    }
+    header a{
+        height: 5vh;
+    }
+    .bto-contato{
+        font-size: 3vh;
+    }
+    .bo{
+        flex-direction: row;
+    }
+    .xp-bar{
+        height: 1.7vh;
+    }
+    
+}
+@media (min-width: 2601px) and ( max-width: 3000px) {
+    header h1{
+        font-size: 7vh;
+    }
+    header p{
+        font-size: 6vh;
+    }
+    header a{
+        height: 5vh;
+    }
+    .bto-contato{
+        font-size: 3vh;
+    }
+    .bo{
+        flex-direction: row;
+    }
+    .xp-bar{
+        height: 1.7vh;
+    }
+}
+@media (min-width: 3001px) and (max-width: 5500px){
+    header h1{
+        font-size: 7vh;
+    }
+    header p{
+        font-size: 6vh;
+    }
+    header a{
+        height: 5vh;
+    }
+    .bto-contato{
+        font-size: 3vh;
+    }
+    .bo{
+        flex-direction: row;
+    }
+    .xp-bar{
+        height: 2vh;
+    }
+}
