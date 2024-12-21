@@ -1,7 +1,9 @@
-    /*document.getElementById('botao').addEventListener('click', function() {
+    document.getElementById('botao').addEventListener('click', function() {
     const currentLanguage = document.documentElement.lang;
 
-   
+    
+
+
     if (currentLanguage === 'pt-BR') {
        
         document.documentElement.lang = 'en-US'; 
@@ -26,21 +28,9 @@
         document.getElementById('formation').textContent = 'Formação Acadêmica';
         document.getElementById('an').textContent = ' Anhanguera Educacional | 2024 – Previsão de Conclusão: 2026';
         document.getElementById('cursos').textContent = 'Cursos e conhecimentos';
-        document.getElementById('cs').textContent = 'C# com .NET Framework';
-        document.getElementById('html').textContent = 'HTML e CSS para Sites';
-        document.getElementById('figma').textContent = 'Figma para Design';
-        document.getElementById('sql').textContent = 'MySQL';
-        document.getElementById('c+').textContent = 'C/C++ ';
-        document.getElementById('java').textContent = 'Java';
-        document.getElementById('oracle').textContent = 'Oracle';
-        document.getElementById('redes').textContent = 'Redes de Computadores';
-        document.getElementById('logica').textContent = 'Lógica de Programação';
-        document.getElementById('banco').textContent = 'Análise de Banco de Dados';
-        document.getElementById('si').textContent = 'Análise de Sistemas',
-        document.getElementById('ux').textContent = 'UX/UI ';
-        document.getElementById('resp').textContent = 'Responsividade ';
-        document.getElementById('in').textContent = 'Inglês: B2';
-        document.getElementById('metheus').textContent = 'Mateus 5:10-12';
+
+        
+        document.getElementById('matheus').textContent = 'Mateus 5:10-12';
         document.getElementById('word').textContent = '"Felizes são os perseguidos por causa da justiça, pois o Reino dos céus lhes pertence. Felizes são vocês quando os insultam, os perseguem e mentem a seu respeito, dizendo todo tipo de mal contra vocês por minha causa. Alegrem-se e exultem, porque grande é a recompensa de vocês nos céus. Pois da mesma forma perseguiram os profetas que viveram antes de vocês."';
         document.getElementById('pp').textContent = 'Projetos Acadêmicos';
         document.getElementById('ff').textContent = 'Sites desenvolvidos durante a faculdade e cursos na alura';
@@ -53,9 +43,8 @@
         document.getElementById('site').textContent = 'Desenvolvimento de um site para cliente utilizando Wix (Near completion)';
         document.getElementById('app').textContent = 'Futuro desenvolvimento de aplicativo';
         document.getElementById('page').textContent = 'Futuro desenvolvimento de Landing Page de Lançamento Imobiliário';
-        document.getElementById('cmg').textContent = 'Entre em contato comigo';
+        document.getElementById('cmg').textContent = 'Contatos';
     } else {
-        // Troca para português
         document.documentElement.lang = 'pt-BR'; 
         document.getElementById('botao').textContent = 'trocar para o português'; 
         document.getElementById('estudo').textContent = 'Systems Analysis and Development Student'; 
@@ -77,21 +66,11 @@
         document.getElementById('formation').textContent = 'Academic Background';
         document.getElementById('an').textContent = 'Anhanguera Educacional | 2024 – Expected Graduation: 2026';
         document.getElementById('cursos').textContent = 'Courses and Knowledge';
-        document.getElementById('cs').textContent = 'C# with .NET Framework';
-        document.getElementById('html').textContent = 'HTML and CSS for Websites';
-        document.getElementById('figma').textContent = 'Figma for Design';
-        document.getElementById('sql').textContent = 'MySQL';
-        document.getElementById('c+').textContent = 'C/C++';
-        document.getElementById('java').textContent = 'Java';
-        document.getElementById('oracle').textContent = 'Oracle';
-        document.getElementById('redes').textContent = 'Computer Networks';
-        document.getElementById('logica').textContent = 'Programming Logic';
-        document.getElementById('banco').textContent = 'Database Analysis';
-        document.getElementById('si').textContent = 'Systems Analysis';
-        document.getElementById('ux').textContent = 'UX/UI';
-        document.getElementById('resp').textContent = 'Responsiveness';
-        document.getElementById('in').textContent = 'English: B2';
-        document.getElementById('metheus').textContent = 'Matthew 5:10-12';
+
+
+
+
+        document.getElementById('matheus').textContent = 'Matthew 5:10-12';
         document.getElementById('word').textContent = '"Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven. Blessed are you when people insult you, persecute you and falsely say all kinds of evil against you because of me. Rejoice and be glad, because great is your reward in heaven, for in the same way they persecuted the prophets who were before you."';
         document.getElementById('pp').textContent = 'Academic Projects';
         document.getElementById('ff').textContent = 'Websites developed during college and courses at Alura';
@@ -104,9 +83,55 @@
         document.getElementById('site').textContent = 'Development of a website for a client using Wix (Near completion)';
         document.getElementById('app').textContent = 'Future app development';
         document.getElementById('page').textContent = 'Future development of a Real Estate Launch Landing Page';
-        document.getElementById('cmg').textContent = 'Contact me';
+        document.getElementById('cmg').textContent = 'Contact';
     }
 
     
 });
-*/
+
+
+
+document.getElementById('scrollUpBtn').addEventListener('click', function() {
+    let scrollInterval = setInterval(function() {
+      let scrollPosition = window.pageYOffset;
+      if (scrollPosition > 0) {
+        window.scrollTo(0, scrollPosition - 10); // Ajuste o valor 10 para controlar a velocidade
+      } else {
+        clearInterval(scrollInterval); // Quando chegar no topo, pare a rolagem
+      }
+    }, 10); // Ajuste o intervalo (menor valor = rolagem mais rápida)
+  });
+  
+  
+
+/*document.getElementById('cs').textContent = 'C# com .NET Framework';
+        document.getElementById('html').textContent = 'HTML e CSS para Sites';
+        document.getElementById('figma').textContent = 'Figma para Design';
+        document.getElementById('sql').textContent = 'MySQL';
+        document.getElementById('c+').textContent = 'C/C++ ';
+        document.getElementById('java').textContent = 'Java';
+        document.getElementById('oracle').textContent = 'Oracle';
+        document.getElementById('redes').textContent = 'Redes de Computadores';
+        document.getElementById('logica').textContent = 'Lógica de Programação';
+        document.getElementById('banco').textContent = 'Análise de Banco de Dados';
+        document.getElementById('si').textContent = 'Análise de Sistemas',
+        document.getElementById('ux').textContent = 'UX/UI ';
+        document.getElementById('resp').textContent = 'Responsividade ';
+        document.getElementById('in').textContent = 'Inglês: B2'; */
+
+
+
+        /*  document.getElementById('cs').textContent = 'C# with .NET Framework';
+        document.getElementById('html').textContent = 'HTML and CSS for Websites';
+        document.getElementById('figma').textContent = 'Figma for Design';
+        document.getElementById('sql').textContent = 'MySQL';
+        document.getElementById('c+').textContent = 'C/C++';
+        document.getElementById('java').textContent = 'Java';
+        document.getElementById('oracle').textContent = 'Oracle';
+        document.getElementById('redes').textContent = 'Computer Networks';
+        document.getElementById('logica').textContent = 'Programming Logic';
+        document.getElementById('banco').textContent = 'Database Analysis';
+        document.getElementById('si').textContent = 'Systems Analysis';
+        document.getElementById('ux').textContent = 'UX/UI';
+        document.getElementById('resp').textContent = 'Responsiveness';
+        document.getElementById('in').textContent = 'English: B2'; */

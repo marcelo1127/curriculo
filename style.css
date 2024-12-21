@@ -8,14 +8,9 @@
     background-color: black; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
 
-.lavishly-yours-regular {
-    font-family: "Lavishly Yours", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 
 .background {
     position:fixed;
@@ -36,18 +31,64 @@
         background-position: 100% 100%;
     }
 }
+.botoes {
+    display: flex;
+    justify-content: space-between; /* Distribui os botões ao longo da largura da tela */
+    align-items: center; /* Alinha os botões verticalmente */
+    position: fixed; /* Fixa a section no topo da página */
+    top: 20px;
+    width: 100%; /* Ocupa toda a largura da página */
+    padding: 0 20px; /* Espaçamento nas laterais */
+    z-index: 10; /* Garante que a section fique acima de outros elementos */
+}
 
-button{
+/* Estilo do botão de seta para cima */
+.scroll-up-btn {
+    width: 50px; /* Tamanho do círculo */
+    height: 50px; /* Tamanho do círculo */
+    background-color: #E0FFFF; /* Cor do botão */
+    border-radius: 50%; /* Tornando o botão circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para quando o botão é pressionado */
+.scroll-up-btn:hover {
+    background-color: black; /* Cor do botão quando em hover */
+}
+
+/* Estilo da seta para cima */
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid rgb(255, 0, 179); /* Cor da seta (branco gelo) */
+}
+
+/* Estilo do segundo botão */
+button {
     color: aliceblue;
     background-color: black;
-    position: relative;
+    padding: 10px 20px;
     border-radius: 20px;
-    padding: 5px 2%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-button:hover{
-    
-    color: #87CEEB;
+
+button:hover {
+    color: rgb(252, 7, 215);
+    background-color: #E0FFFF;
 }
+
+
+
+
 .infos {
     display: flex;
     flex-direction: column;
@@ -58,20 +99,20 @@ button:hover{
 }
 
 header h1 {
-    font-family: 'Lavishly Yours' , cursive;
+   
     font-weight: 400;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
-    font-family: 'Lavishly Yours' , cursive;
+    
     font-weight: 400;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 .bo{
-    font-family: 'Lavishly Yours' , cursive;
+   
     font-weight: 400;
     display: flex;
     flex-direction: column;
@@ -207,6 +248,8 @@ main {
     background-size: 400% 400%; 
     border-radius: 5px;
     animation: liquidSwing 7s infinite alternate ease-in-out,colorShift 7s infinite alternate;
+    display: block;
+    
   }
   
   @keyframes liquidSwing {
@@ -347,6 +390,9 @@ footer h2{
 
 /* Para telas muito pequenas, como celulares pequenos (max-width: 320px) */
 @media (max-width: 350px) {
+    .botoes{
+        top: 75px;
+    }
     header h1 {
         font-size: 1.2rem;
     }
@@ -372,6 +418,11 @@ footer h2{
 
 /* Para telas pequenas, como celulares (max-width: 480px) */
 @media (max-width: 480px) {
+    .botoes{
+        padding: 10px;
+        top: 75px;
+    }
+    
     header h1 {
         font-size: 1.5rem;
     }
@@ -407,6 +458,9 @@ footer h2{
 
 /* Para telas médias, como tablets em modo retrato (max-width: 768px) */
 @media (min-width: 490px) and (max-width: 768px) {
+    .botoes{
+        top: 75px;
+    }
     header h1 {
         font-size: 2rem;
     }
