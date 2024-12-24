@@ -69,11 +69,10 @@
     border-right: 5px solid transparent;
     border-bottom: 10px solid rgb(255, 0, 179); /* Cor da seta (branco gelo) */
 }
-
 /* Estilo do segundo botão */
 button {
-    color: aliceblue;
-    background-color: black;
+    color: rgb(227, 6, 247);
+    background-color: #E0FFFF;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
@@ -83,9 +82,14 @@ button {
 
 button:hover {
     color: rgb(252, 7, 215);
-    background-color: #E0FFFF;
+    background-color: black;
 }
 
+#botao img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
 
 
 
@@ -332,7 +336,7 @@ main {
     }
 }
 .word_of_God-1,.word_of_God-2{
-    animation: colorchange 77s infinite alternate;
+    animation: colorchange 23s infinite alternate;
 }
 .project{
     font-size: 5vh;
@@ -351,13 +355,14 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 .a{
     position: relative;
     text-decoration: none;
     color: aliceblue;
 }
 .a:hover{
-    color: aqua;
+    color: rgb(255, 8, 234);
 }
 .foo{
     display: flex;
@@ -413,7 +418,9 @@ footer h2{
     .map{
         width: 100%;
     }
-      
+      #sobre{
+        font-size: 7px;
+      }
 }
 
 /* Para telas pequenas, como celulares (max-width: 480px) */
@@ -422,7 +429,9 @@ footer h2{
         padding: 10px;
         top: 75px;
     }
-    
+    #sobre,.description-2,#busco{
+        font-size: 15px;
+    }
     header h1 {
         font-size: 1.5rem;
     }

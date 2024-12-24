@@ -7,7 +7,8 @@
     if (currentLanguage === 'pt-BR') {
        
         document.documentElement.lang = 'en-US'; 
-        document.getElementById('botao').textContent = 'Switch to English';
+        document.getElementById('image').src='assets/flag-us-svgrepo-com.svg';
+
         document.getElementById('estudo').textContent = 'Estudante de Análise e Desenvolvimento de Sistemas';
         document.getElementById('formacao').textContent = 'Formação'; 
         document.getElementById('obje').textContent = 'Objetivos'; 
@@ -34,19 +35,14 @@
         document.getElementById('word').textContent = '"Felizes são os perseguidos por causa da justiça, pois o Reino dos céus lhes pertence. Felizes são vocês quando os insultam, os perseguem e mentem a seu respeito, dizendo todo tipo de mal contra vocês por minha causa. Alegrem-se e exultem, porque grande é a recompensa de vocês nos céus. Pois da mesma forma perseguiram os profetas que viveram antes de vocês."';
         document.getElementById('pp').textContent = 'Projetos Acadêmicos';
         document.getElementById('ff').textContent = 'Sites desenvolvidos durante a faculdade e cursos na alura';
-        document.getElementById('fff').textContent = 'Projeto faculdade';
-        document.getElementById('alura+').textContent = 'Projeto aluraplus';
-        document.getElementById('projetoalurab').textContent = 'Projeto alurabook';
-        document.getElementById('yumi').textContent = 'Projeto yumialura';
+       
         document.getElementById('personal').textContent = 'Projetos Pessoais';
         document.getElementById('cliente').textContent = 'Projetos sendo desenvolvidos para clientes';
-        document.getElementById('site').textContent = 'Desenvolvimento de um site para cliente utilizando Wix (Near completion)';
-        document.getElementById('app').textContent = 'Futuro desenvolvimento de aplicativo';
-        document.getElementById('page').textContent = 'Futuro desenvolvimento de Landing Page de Lançamento Imobiliário';
+       
         document.getElementById('cmg').textContent = 'Contatos';
     } else {
         document.documentElement.lang = 'pt-BR'; 
-        document.getElementById('botao').textContent = 'trocar para o português'; 
+        document.getElementById('image').src='assets/flag-for-flag-brazil-svgrepo-com.svg';
         document.getElementById('estudo').textContent = 'Systems Analysis and Development Student'; 
         document.getElementById('formacao').textContent = 'Formation'; 
         document.getElementById('obje').textContent = 'Obejectives'; 
@@ -74,15 +70,10 @@
         document.getElementById('word').textContent = '"Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven. Blessed are you when people insult you, persecute you and falsely say all kinds of evil against you because of me. Rejoice and be glad, because great is your reward in heaven, for in the same way they persecuted the prophets who were before you."';
         document.getElementById('pp').textContent = 'Academic Projects';
         document.getElementById('ff').textContent = 'Websites developed during college and courses at Alura';
-        document.getElementById('fff').textContent = 'College Project';
-        document.getElementById('alura+').textContent = 'AluraPlus Project';
-        document.getElementById('projetoalurab').textContent = 'AluraBook Project';
-        document.getElementById('yumi').textContent = 'YumiAlura Project';
+       
         document.getElementById('personal').textContent = 'Personal Projects';
         document.getElementById('cliente').textContent = 'Projects being developed for clients';
-        document.getElementById('site').textContent = 'Development of a website for a client using Wix (Near completion)';
-        document.getElementById('app').textContent = 'Future app development';
-        document.getElementById('page').textContent = 'Future development of a Real Estate Launch Landing Page';
+  
         document.getElementById('cmg').textContent = 'Contact';
     }
 
@@ -95,16 +86,16 @@ document.getElementById('scrollUpBtn').addEventListener('click', function() {
     let scrollInterval = setInterval(function() {
       let scrollPosition = window.pageYOffset;
       if (scrollPosition > 0) {
-        window.scrollTo(0, scrollPosition - 10); // Ajuste o valor 10 para controlar a velocidade
+        window.scrollTo(0, scrollPosition - 7); 
       } else {
-        clearInterval(scrollInterval); // Quando chegar no topo, pare a rolagem
+        clearInterval(scrollInterval); 
       }
-    }, 10); // Ajuste o intervalo (menor valor = rolagem mais rápida)
+    }, 7);
   });
   
   
 
-/*document.getElementById('cs').textContent = 'C# com .NET Framework';
+/*      document.getElementById('cs').textContent = 'C# com .NET Framework';
         document.getElementById('html').textContent = 'HTML e CSS para Sites';
         document.getElementById('figma').textContent = 'Figma para Design';
         document.getElementById('sql').textContent = 'MySQL';
