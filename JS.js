@@ -17,7 +17,7 @@
         document.getElementById('contatos').textContent = 'Contatos'; 
         document.getElementById('sobre_mim').textContent = 'Sobre mim';
         document.getElementById('sobre_mim').textContent = 'Sobre mim';
-        document.getElementById('sobre').textContent = 'Sou Marcelo Alves de Lima Filho, tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas. Apaixonado por tecnologia desde criança, encontrei no desenvolvimento front-end uma forma de unir criatividade, técnica e foco em UX/UI para criar interfaces intuitivas e funcionais. Cristão, levo valores como ética e integridade para cada projeto que realizo. Além disso, tenho um grande amor pelos animais. Tenho uma Pet e acredito que, assim como na tecnologia, dedicação e cuidado são essenciais para o bem-estar de todos. No futuro, planejo estudar algo técnico voltado para o cuidado de animais, unindo minha paixão por pets com minha experiência em tecnologia, para explorar maneiras de melhorar a vida dos animais e de seus tutores. ';
+        document.getElementById('sobre').textContent = 'Me chamo Marcelo Alves de Lima Filho, sou estudante de Análise e Desenvolvimento de Sistemas e estou em busca da minha primeira oportunidade como desenvolvedor front-end júnior ou estagiário. Tenho grande interesse por tecnologia e foco em criar interfaces modernas, funcionais e responsivas.Minhas principais habilidades incluem HTML, CSS, JavaScript, Bootstrap e Node.js. Também tenho conhecimentos em UX/UI, responsividade, prototipação no Figma, além de noções em C#, .NET e banco de dados.Sou dedicado, curioso e estou sempre em busca de aprendizado. Acredito que uma oportunidade na área será essencial para meu crescimento profissional e estou pronto para contribuir com entusiasmo, responsabilidade e vontade de evoluir.';
         document.getElementById('descri').textContent = 'Descrição pessoal';
         document.getElementById('cristão').textContent = 'Cristão e comprometido com princípios éticos, Amo meu Deus acima de tudo';
         document.getElementById('leader').textContent = 'Liderança: Gerente de projetos acadêmicos e pessoais';
@@ -27,7 +27,7 @@
         document.getElementById('objective').textContent = 'Objetivo profissional';
         document.getElementById('busco').textContent = ' Busco uma oportunidade para me firmar em uma empresa, adquirir as experiências necessárias e crescer junto com a organização, desenvolvendo minhas habilidades até conquistar um cargo de liderança.';
         document.getElementById('formation').textContent = 'Formação Acadêmica';
-        document.getElementById('an').textContent = ' Anhanguera Educacional | 2024 – Previsão de Conclusão: 2026';
+        document.getElementById('an').textContent = ' USCS Universidade Municipal de São Caetano do Sul | previsão de conclusão - dezembro 2026';
         document.getElementById('cursos').textContent = 'Cursos e conhecimentos';
 
         
@@ -50,7 +50,7 @@
         document.getElementById('descricao').textContent = 'Description'; 
         document.getElementById('contatos').textContent = 'Contacts'; 
         document.getElementById('sobre_mim').textContent = 'About me';
-        document.getElementById('sobre').textContent = 'I am Marcelo Alves de Lima Filho, 22 years old, and I am a student of Systems Analysis and Development. Passionate about technology since childhood, I found front-end development as a way to combine creativity, technical skills, and focus on UX/UI to create intuitive and functional interfaces.As a Christian, I bring values such as ethics and integrity to every project I undertake. Additionally, I have a great love for animals. I have a pet and believe that, just like in technology, dedication and care are essential for the well-being of all. In the future, I plan to study something technical related to animal care, combining my love for pets with my experience in technology to explore ways to improve the lives of animals and their owners.';
+        document.getElementById('sobre').textContent = 'My name is Marcelo Alves de Lima Filho, and I’m a student of Systems Analysis and Development. I’m currently looking for my first opportunity as a junior front-end developer or intern. I have a strong interest in technology and a focus on building modern, functional, and responsive interfaces.My main skills include HTML, CSS, JavaScript, Bootstrap, and Node.js. I also have knowledge in UX/UI design, responsive layouts, prototyping with Figma, and some experience with C#, .NET, and databases.I am dedicated, curious, and constantly learning. I believe that an opportunity in the field will be essential for my professional growth, and I’m ready to contribute with enthusiasm, responsibility, and a strong desire to improve.';
         document.getElementById('descri').textContent = 'Personal Description';
         document.getElementById('cristão').textContent = 'Christian and committed to ethical principles, I love my God above all';
         document.getElementById('leader').textContent = 'Leadership: Manager of academic and personal projects';
@@ -60,7 +60,7 @@
         document.getElementById('objective').textContent = 'Professional Objective';
         document.getElementById('busco').textContent = 'I seek an opportunity to establish myself in a company, gain the necessary experience, and grow together with the organization, developing my skills until reaching a leadership position.';
         document.getElementById('formation').textContent = 'Academic Background';
-        document.getElementById('an').textContent = 'Anhanguera Educacional | 2024 – Expected Graduation: 2026';
+        document.getElementById('an').textContent = 'USCS - Municipal University of São Caetano do Sul | expected graduation - December 2026';
         document.getElementById('cursos').textContent = 'Courses and Knowledge';
 
 
